@@ -1,8 +1,13 @@
 var layers = {}
 
-const decimalZero = new Decimal(0)
-const decimalOne = new Decimal(1)
-const decimalNaN = new Decimal(NaN)
+const Decimal = ExpantaNum
+const EN = ExpantaNum
+const ExpantaNumZero = new ExpantaNum(0)
+const ExpantaNumOne = new ExpantaNum(1)
+const ExpantaNumNaN = new ExpantaNum(NaN)
+const decimalZero = ExpantaNumZero
+const decimalOne= ExpantaNumOne
+const decimalNaN = ExpantaNumNaN
 
 const defaultGlow = "#ff0000"
 
