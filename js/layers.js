@@ -50,7 +50,7 @@ addLayer("q", {
         14: {
             title: "String",
             description: "Quantums gain is boosted by quantums.",
-            cost: new Decimal(50),
+            cost: new Decimal(35),
             effect() {
                 return player[this.layer].points.add(2).pow(0.25)
             },
@@ -59,7 +59,7 @@ addLayer("q", {
         15: {
             title: "Reheating",
             description: "Quantums gain is boosted by times and add a new layer(TBD).",
-            cost: new Decimal(200),
+            cost: new Decimal(150),
             effect() {
                 return player.points.add(1).pow(0.15)
             },
